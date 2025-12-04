@@ -6,9 +6,9 @@ This repository contains highly optimized Python implementations of three fundam
 
 | File | Model | Key Techniques |
 | :--- | :--- | :--- |
-| **`gp_regression.py`** | Gaussian Process Regression | Cholesky Decomposition, SciPy `cdist` |
-| **`mixture_model.py`** | 3D Bayesian Finite Mixture | Vectorized Gibbs Sampling, Log-Sum-Exp Trick |
-| **`hmm_ffbs.py`** | Bayesian Hidden Markov Model | FFBS Algorithm, Numba JIT Compilation |
+| **`GP.py`** | Gaussian Process Regression | Cholesky Decomposition, SciPy `cdist` |
+| **`BayesianFM.py`** | 3D Bayesian Finite Mixture | Vectorized Gibbs Sampling, Log-Sum-Exp Trick |
+| **`BayesianHMMGibbs.py`** | Bayesian Hidden Markov Model | FFBS Algorithm, Numba JIT Compilation |
 
 ---
 
